@@ -329,6 +329,9 @@ body{
     font-size: 17px !important;
     font-family:  Verdana, Geneva, Tahoma, sans-serif;
 }
+.wrapper{
+    height: 90vh;
+}
 .abtser-btn{
     margin-top: 50px;
     padding: 10px;
@@ -469,6 +472,7 @@ body{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: rgb(255, 255, 255);
     font-size: 40px;
+    color: #0cd40c;
     padding: 20px;
     font-weight: 800 !important;
     

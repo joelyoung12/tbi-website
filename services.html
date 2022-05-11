@@ -31,7 +31,7 @@
             <div class="row">
                 <div class="col-md-4">
                     <div class="2holder">
-                        <img src="./img/logo.jpg" class="logo">
+                        <img src="./img/tbg png.png" class="logo">
                         <i class="fa fa-bars icon-bar"></i>
                     </div>
                 </div>
@@ -55,13 +55,25 @@
         </div>
 
         <nav>
+           
             <ul class="links">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="About.html">About</a></li>
-                <li><a href="Services.html">Services</a></li>
+                <li><a class="serDown">Services <i class="fa fa-caret-down " id="caret"></i></a></li>
+                <li><a href="Gallery.html">Gallery</a></li>
                 <li><a href="Contact.html">Contact</a></li>
-               
+                
             </ul>
+            <div class="dropdown">
+                <i class="fa fa-times" id="times"></i>
+                <li><a href="construction.html">Construction and Infrastructural Projects</a></li>
+                <li><a href="Engineering.html">Engineering Services</a></li>
+                <li><a href="geograhpic.html">geographic information system</a></li>
+                <li><a href="land.html">land & quantity surveying</a></li>
+                <li><a href="project.html">project management</a></li>
+                <li><a href="geograhpic.html">general supply</a></li>
+                <li><a href="train.html">Training</a></li>
+            </div>
         </nav>
     </header>
     <div class="first-img   services-page">
@@ -91,11 +103,11 @@
             click on the images !
         </p>
     </h5>
-    <div class="hold-services">
+    <div class="hold-services" id="helpSS">
         <div class="holder-services">
             <div class="row">
                 <div class="col-md-4">
-                    <div class="wrapper  serWap">
+                    <div class="wrapper  serWap" id="serwap">
                      <img src="./img/const.JPG" class="offer-img">
                      <section class="icon-const">
                          <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
@@ -294,48 +306,34 @@
    
     <footer class="footer-container">
         <div class="footer-holder">
-            <div class="row">
-                <div class="col-md-3">
-                    <div class="footer-deta">
+           
                      <div class="logo" id="logo-rite">
-                         <a href="YOUNG"> TBI INFARSTRUCTURE</a>
-                        
+                        <img src="./img/tbg png.png" class="logo logof">
                      </div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="footer-deta">
-                         <ul class="footer-links">
-                             <li><a href="">Home</a></li>
-                             <li><a href="">About</a></li>
-                             <li><a href="">Contact</a></li>
-                             <li><a href="">Service</a></li>
-                         </ul>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="footer-deta">
-                     <ul class="footer-info">
-                         <li><a href="">FAQ</a></li>
-                         <li><a href="">shipping & return</a></li>
-                         <li><a href=""> Store policy</a></li>
-                         <li><a href="">Payment method</a></li>
-                     </ul>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="footer-deta">
-                         <ul class="socia-med">
-                             <li>Facebook</li>
-                             <li>Whatapps</li>
-                             <li>Twitter</li>
-                             <li>Instagram</li>
-                         </ul>
-                    </div>
-                </div>
-            </div>
+                     <div class="menu">
+                        <ul class="navigation-footer">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="services.html">Service</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                        <div class="foot-icon">
+                            <i class=" fa fa-facebook con-fot"></i>
+                            <i class=" fa fa-twitter con-fot"></i>
+                            <i class=" fa fa-instagram con-fot"></i>
+                            <i class=" fa fa-linkedin con-fot"></i>
+                            <i class="fa fa-youtube con-fot"></i>
+                        </div>
+                     </div>
+                     <div class="hold-my"></div>
+                     <hr class="line-myfoot">
+                     <p>
+                         <a href="#" class="incom">tbinfrastructure.com</a>
+                     </p>
+                    <a href="#"> <i class=" fa fa-arrow-up  uparrow"></i></a>
         </div>
-    </footer>
+    </footer>                                         
+   
     <script src="tbi.js"></script>
     <script src="new.js"></script>
 </body>
